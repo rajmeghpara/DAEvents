@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@mipmap/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/reminders"
+            android:icon="@mipmap/rwhite"
+            android:title="Reminders" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@mipmap/sharew"
+            android:actionProviderClass="android.widget.ShareActionProvider"
+            android:title="Share" />
+        <item
+            android:id="@+id/rateus"
+            android:icon="@mipmap/rateus"
+            android:title="RateUs" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@mipmap/aboutus"
+            android:title="AboutUs" />
+
+        <item
+            android:id="@+id/exit"
+            android:icon="@mipmap/exit"
+            android:title="Exit" />
+
+    </group>
+
+
+
+</menu>
+
+
+

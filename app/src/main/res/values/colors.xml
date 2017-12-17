@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d0d0d</color>
+    <color name="colorPrimaryDark">#575758</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <array name="androidcolors">
+        <item>#e57373</item>
+        <item>#f06292</item>
+        <item>#ba68c8</item>
+        <item>#9575cd</item>
+        <item>#7986cb</item>
+        <item>#64b5f6</item>
+        <item>#4fc3f7 </item>
+        <item>#4dd0e1</item>
+        <item>#4db6ac</item>
+        <item>#81c784 </item>
+        <item>#aed581</item>
+        <item>#dce775</item>
+        <item>#fff176</item>
+        <item>#ffd54f</item>
+        <item>#ffb74d</item>
+        <item>#ff8a65</item>
+        <item>#a1887f</item>
+    </array>
+
+
+
+</resources>

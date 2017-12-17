@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RL"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/backprofile"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rarity.apps.events.abtus"
+    >
+
+
+
+    <TextView
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="15dp"
+        android:textSize="60dp"
+        android:text="About Us"
+        android:textColor="#fdb1aeae"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+
+    <TextView
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:text="Hardik Dobariya"
+        android:textColor="#fdd4d3d3"
+        android:textSize="20.5dp"
+        android:typeface="sans"
+        />
+
+    <TextView
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fdd4d3d3"
+        android:textSize="20.5dp"
+        android:text="Premang Vikani" />
+    <TextView
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et3"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:text="Hardik Jadav"
+        android:textColor="#fdd4d3d3"
+        android:textSize="20.5dp"
+        />
+
+    <TextView
+        android:id="@+id/et5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et4"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:text="Rajkumar Meghpara"
+        android:textColor="#fdd4d3d3"
+        android:textSize="20.5dp"
+        />
+
+    <TextView
+        android:id="@+id/et6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et5"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:text="Ekta Bhoraniya"
+        android:textColor="#fdd4d3d3"
+        android:textSize="20.5dp"
+        />
+
+</LinearLayout>
+
+

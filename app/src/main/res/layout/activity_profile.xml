@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backprofile"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="3"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rarity.apps.events.Profile"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rimg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/profile"
+       app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="Name"
+        android:paddingTop="10dp"
+        android:textColor="#fdb1aeae"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        />
+
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:text="College"
+        android:textColor="#fdd4d3d3"
+        android:textSize="20dp"
+        android:typeface="serif"
+        />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:text="ID"
+        android:textColor="#fdd4d3d3"
+        android:textSize="20dp"
+        android:typeface="serif"
+        />
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:text="Contact No"
+        android:textSize="20dp"
+        android:textColor="#fdd4d3d3"
+        android:typeface="serif"
+        />
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="  ADMINISTRATION  "
+        android:background="@drawable/buttons"
+        android:textColor="#969494"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/lout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Logout"
+        android:textColor="#969494"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttons"
+        android:layout_gravity="center"
+        android:onClick="logout" />
+
+
+
+
+
+
+</LinearLayout>
+
+
